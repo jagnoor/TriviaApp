@@ -1,9 +1,31 @@
 
 .jumbotron {
-	
+	background-color: black;
 	background-image: url("dog.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-attachment: fixed;
+	background-attachment: auto;
     background-position: center;
-    color: antiquewhite;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+   
+div {
+        margin-bottom: 30px; 
+        font-family: 'Josefin Slab', serif; font-size: 1.04em;
+    }
+
+.correct, .incorrect {
+        text-transform: capitalize;
+    }
+    
+.card {
+    width: align-self: auto;
+}
+    
+
+   
+  
